@@ -56,6 +56,8 @@ export class Show {
        <button type='button' class='closeBtn'></button>`
     );
     this.recordList.appendChild(recordItem);
+    this.searchInput.value = "";
+    this.clearRepos();
   }
 
   removeRepo(e) {
